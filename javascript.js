@@ -18,7 +18,6 @@ gsap.from(".pride, .text-sec, .aboutimg", {
         start: "top 60%",
         end: "top 50%",
         scrub: true,
-        markers: true
       },
       duration:5 ,
     opacity:0,
@@ -30,7 +29,6 @@ gsap.from(".ecards,#Explore p, #Explore h2", {
         start: "top 60%",
         end: "top 20%",
         scrub: true,
-        markers: true
       },
       duration:5 ,
           opacity:0,
@@ -42,8 +40,7 @@ gsap.from(".stomach,.storypara, #story button", {
         trigger: "#story",
         start: "top 70%",
         end: "top 20%",
-        scrub: true,
-        markers: true
+        scrub: true
       },
         duration:5,
         opacity:0,
@@ -55,8 +52,7 @@ gsap.from("#footer", {
         trigger: "#footer",
         start: "top 90%",
         end:"bottom 100%",
-        scrub: true,
-        markers: true
+        scrub: true
       },
         duration:5,
         opacity:0,
