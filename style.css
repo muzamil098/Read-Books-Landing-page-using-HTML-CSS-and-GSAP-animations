@@ -1,0 +1,104 @@
+.top-banner{
+    width: 100%;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
+    background: url("3.jpg") no-repeat;
+}
+.main-btn{
+    padding: 5px;
+    margin-top: -5px;
+    border: 1px solid rgb(2, 140, 150);
+    color: rgb(2, 140, 150);
+    font-weight: bold;
+    background: white;
+    transition: 1s;
+}
+.main-btn:hover{
+    background-color: rgb(2, 140, 150);
+    color: white;
+    border: 1px solid rgb(252, 252, 252);
+
+}
+.secondary-btn{
+    padding: 5px;
+    margin-top: -5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    transition: 1s;
+    background: white;
+    box-shadow: 0 0 5px black ;
+    border: none;
+}
+.secondary-btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(2, 140, 150);
+    border: none;
+}
+.counter-section{
+    background-color: rgb(255, 255, 255);
+    padding: 2.5rem 0;
+    color: rgb(2, 140, 150);
+}
+.counter-section p{
+    color: rgb(2, 140, 150);    
+    text-transform: uppercase;
+}
+.about-section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.about-section .card, 
+.about-section .card img{
+    border-radius: 0.25rem;
+}
+
+.story-section{
+    width:100%;
+    background: url("../Images/bg/bg-2.jpg") no-repeat center;
+    text-align: center;
+}
+.story-section h2{
+    color:rgb(2, 140, 150) ;
+}
+.explore-section h2{
+    color:rgb(2, 140, 150) ;
+}
+.explore-section .card{
+    text-align: left;
+    border-radius: 0.9375rem;
+}
+.explore-section .card img{
+    border-radius: 0.9375rem;
+    object-fit: cover;
+}
+.explore-section .card span{
+    display: block;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.0625rem solid white;
+    color:rgb(2, 140, 150) ;
+
+}
+.explore-section .card span del{
+        color: gray;
+        margin-left: 0.5rem;
+}
+.footer{
+    background-color: rgb(2, 140, 150) ;
+    color: white;
+}
+
+
+/* media quiries */
+@media (max-width: 991px){
+    .top-banner{
+        padding: 9.375rem 0 9.375rem;
+    }
+    .story-section{
+        padding-top: 20px;
+    }
+    h2{
+        font-size: 40px;
+    }
+   
+}
